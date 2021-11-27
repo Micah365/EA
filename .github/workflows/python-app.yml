@@ -43,10 +43,7 @@ jobs:
         echo $CONFIG_KEY > configkey.txt
         sed -i '5 r configid.txt' t.py
         sed -i '7 r configkey.txt' t.py
-        cat t.py
-        cat configid.txt
-        cat configkey.txt
-        cp t.py 1.py
+        
     - name: Test Api #Api调用
       run: |    
         python t.py
