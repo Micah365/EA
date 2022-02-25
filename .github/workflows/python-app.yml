@@ -13,8 +13,8 @@ on:
   #  branches: 
   #    - master
 
-  schedule:
-    - cron: 58 0,5 * * *
+  #schedule:
+  #  - cron: 58 0,5 * * *
   
   watch:
     types: [started]
